@@ -60,7 +60,7 @@
     </Midl>
     <ClCompile>
       <InlineFunctionExpansion>Default</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalControl\SCRAMNet;..\..\..\src\experimentalControl\SCRAMNetGT;..\..\..\src\experimentalControl\xPCtarget;..\..\..\src\experimentalControlPoint;..\..\..\src\experimentalElement;..\..\..\src\experimentalRecorder;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSetup;..\..\..\src\experimentalSignalFilter;..\..\..\src\experimentalSite;..\..\..\src\experimentalTangentStiff;..\..\..\src\interpreter;..\..\..\src\interpreter\python;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files\OpenSSL\include;C:\ProgramData\Anaconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalControl\SCRAMNet;..\..\..\src\experimentalControl\SCRAMNetGT;..\..\..\src\experimentalControl\xPCtarget;..\..\..\src\experimentalControlPoint;..\..\..\src\experimentalElement;..\..\..\src\experimentalRecorder;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSetup;..\..\..\src\experimentalSignalFilter;..\..\..\src\experimentalSite;..\..\..\src\experimentalTangentStiff;..\..\..\src\interpreter;..\..\..\src\interpreter\python;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files\OpenSSL\include;C:\Users\simpsoba_host\miniconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_WIN64;WIN64;PLATFORM_WIN;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -88,7 +88,7 @@
       <AdditionalDependencies>blas.lib;experimentalControl.lib;experimentalElement.lib;experimentalRecorder.lib;experimentalSetup.lib;experimentalSignalFilter.lib;experimentalSite.lib;experimentalTangentStiff.lib;ifconsol.lib;lapack.lib;libcrypto64MT.lib;libifcoremt.lib;libmmt.lib;libssl64MT.lib;openseesObjects.lib;pnpscr.lib;python39.lib;scgtapi.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)openfresco.pyd</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>..\..\..\src\experimentalControl\SCRAMNet\lib64;..\..\..\src\experimentalControl\SCRAMNetGT\lib64;..\..\..\win64\lib;..\..\..\win64\lib\release;C:\Program Files\OpenSSL\lib\VC;C:\ProgramData\Anaconda3\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\src\experimentalControl\SCRAMNet\lib64;..\..\..\src\experimentalControl\SCRAMNetGT\lib64;..\..\..\win64\lib;..\..\..\win64\lib\release;C:\Program Files\OpenSSL\lib\VC;C:\Users\simpsoba_host\miniconda3\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ProgramDatabaseFile>$(IntDir)$(ProjectName).pdb</ProgramDatabaseFile>
       <SubSystem>Console</SubSystem>
@@ -115,7 +115,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalControl\SCRAMNet;..\..\..\src\experimentalControl\SCRAMNetGT;..\..\..\src\experimentalControl\xPCtarget;..\..\..\src\experimentalControlPoint;..\..\..\src\experimentalElement;..\..\..\src\experimentalRecorder;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSetup;..\..\..\src\experimentalSignalFilter;..\..\..\src\experimentalSite;..\..\..\src\experimentalTangentStiff;..\..\..\src\interpreter;..\..\..\src\interpreter\python;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files\OpenSSL\include;C:\ProgramData\Anaconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalControl\SCRAMNet;..\..\..\src\experimentalControl\SCRAMNetGT;..\..\..\src\experimentalControl\xPCtarget;..\..\..\src\experimentalControlPoint;..\..\..\src\experimentalElement;..\..\..\src\experimentalRecorder;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSetup;..\..\..\src\experimentalSignalFilter;..\..\..\src\experimentalSite;..\..\..\src\experimentalTangentStiff;..\..\..\src\interpreter;..\..\..\src\interpreter\python;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files\OpenSSL\include;C:\Users\simpsoba_host\miniconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_WIN64;WIN64;PLATFORM_WIN;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
